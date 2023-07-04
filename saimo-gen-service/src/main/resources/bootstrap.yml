@@ -1,0 +1,54 @@
+# Tomcat
+server:
+  port: 10012
+  context-path: /
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: gen-service
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    # 环境配置
+    active: dev
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      discovery:
+        # 服务注册地址
+        server-addr: ${spring.cloud.nacos.server-addr}
+#        namespace: saimo-lingpao
+        namespace: saimo-apollo
+        group: DEFAULT_GROUP
+        heart-beat-interval: 5
+        heart-beat-timeout: 15
+        ip-delete-timeout: 30000
+      config:
+        # 配置中心地址
+        server-addr: ${spring.cloud.nacos.server-addr}
+        namespace: ${spring.cloud.nacos.discovery.namespace}
+        group: ${spring.cloud.nacos.discovery.group}
+        file-extension: yml
+        shared-configs[0]:
+          data-id: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension} # 配置文件名-Data Id
+          refresh: false   # 是否动态刷新，默认为false
+        shared-configs[1]:
+          data-id: feign-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+          refresh: false
+        shared-configs[2]:
+          data-id: ribbon-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+          refresh: false
+        shared-configs[3]:
+          data-id: redis-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+          refresh: false
+      username: nacos
+      password: nacos
+logging:
+  file:
+    name: logs/${spring.application.name}/info.log
+#雪花算法机器id,数据中心id
+#报表系统 workerId 50~59
+snowFlake:
+  workerId: 50
+  datacenterId: 1

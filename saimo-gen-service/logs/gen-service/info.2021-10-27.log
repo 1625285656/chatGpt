@@ -1,0 +1,65 @@
+20:32:38.314 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+20:32:39.120 [restartedMain] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,67] - LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+20:32:39.125 [restartedMain] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0
+20:32:39.202 [restartedMain] INFO  o.r.Reflections - [scan,232] - Reflections took 47 ms to scan 1 urls, producing 3 keys and 6 values 
+20:32:39.245 [restartedMain] INFO  o.r.Reflections - [scan,232] - Reflections took 21 ms to scan 1 urls, producing 4 keys and 9 values 
+20:32:39.263 [restartedMain] INFO  o.r.Reflections - [scan,232] - Reflections took 14 ms to scan 1 urls, producing 3 keys and 10 values 
+20:32:39.282 [restartedMain] INFO  o.r.Reflections - [scan,232] - Reflections took 15 ms to scan 7 urls, producing 0 keys and 0 values 
+20:32:39.294 [restartedMain] INFO  o.r.Reflections - [scan,232] - Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
+20:32:39.308 [restartedMain] INFO  o.r.Reflections - [scan,232] - Reflections took 12 ms to scan 1 urls, producing 1 keys and 7 values 
+20:32:39.322 [restartedMain] INFO  o.r.Reflections - [scan,232] - Reflections took 10 ms to scan 1 urls, producing 2 keys and 8 values 
+20:32:39.339 [restartedMain] INFO  o.r.Reflections - [scan,232] - Reflections took 13 ms to scan 7 urls, producing 0 keys and 0 values 
+20:32:39.340 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+20:32:39.341 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$419/0x00000008003f6898
+20:32:39.342 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$420/0x00000008003f6ab8
+20:32:39.343 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+20:32:39.343 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+20:32:39.356 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0] Try to connect to server on start up, server: {serverIp='127.0.0.1', server main port=8848}
+20:32:40.261 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0] Success to connect to server [127.0.0.1:8848] on start up,connectionId=1635337960064_127.0.0.1_55354
+20:32:40.263 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0]Notify connected event to listeners.
+20:32:40.264 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+20:32:40.264 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0] Connected,notify listen context...
+20:32:40.265 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [69d5836e-75f7-44b9-bc8b-adc138788cf3_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+20:32:40.340 [restartedMain] INFO  c.a.n.c.c.i.Limiter - [<clinit>,56] - limitTime:5.0
+20:32:40.360 [restartedMain] INFO  c.a.n.c.c.u.JvmUtil - [<clinit>,53] - isMultiInstance:false
+20:32:40.474 [restartedMain] INFO  c.s.g.GenApplication - [logStartupProfileInfo,663] - The following profiles are active: dev
+20:32:44.114 [restartedMain] INFO  io.undertow.servlet - [log,382] - Initializing Spring embedded WebApplicationContext
+20:32:45.481 [restartedMain] INFO  c.a.c.s.SentinelWebAutoConfiguration - [addInterceptors,80] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+20:32:46.140 [restartedMain] INFO  c.a.n.client.naming - [initNamespaceForNaming,63] - initializer namespace from System Property : null
+20:32:46.141 [restartedMain] INFO  c.a.n.client.naming - [call,69] - initializer namespace from System Environment :null
+20:32:46.142 [restartedMain] INFO  c.a.n.client.naming - [call,79] - initializer namespace from System Property :null
+20:32:46.161 [restartedMain] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 388b5586-1540-45a6-bba4-80041dc2ced1
+20:32:46.162 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [388b5586-1540-45a6-bba4-80041dc2ced1]RpcClient init label, labels={module=naming, source=sdk}
+20:32:46.164 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [388b5586-1540-45a6-bba4-80041dc2ced1]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+20:32:46.164 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [388b5586-1540-45a6-bba4-80041dc2ced1]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+20:32:46.165 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [388b5586-1540-45a6-bba4-80041dc2ced1]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+20:32:46.166 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [388b5586-1540-45a6-bba4-80041dc2ced1] Try to connect to server on start up, server: {serverIp='127.0.0.1', server main port=8848}
+20:32:46.294 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [388b5586-1540-45a6-bba4-80041dc2ced1] Success to connect to server [127.0.0.1:8848] on start up,connectionId=1635337966177_127.0.0.1_55363
+20:32:46.294 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [388b5586-1540-45a6-bba4-80041dc2ced1]Notify connected event to listeners.
+20:32:46.294 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [388b5586-1540-45a6-bba4-80041dc2ced1]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+20:32:46.294 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
+20:32:46.294 [restartedMain] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [388b5586-1540-45a6-bba4-80041dc2ced1]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+20:32:48.111 [restartedMain] INFO  c.a.n.client.naming - [isChangedServiceInfo,181] - init new ips(0) service: DEFAULT_GROUP@@gen-service@@DEFAULT -> []
+20:32:48.123 [restartedMain] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@gen-service@@DEFAULT -> []
+20:32:48.159 [restartedMain] INFO  io.undertow - [start,120] - starting server: Undertow - 2.2.12.Final
+20:32:48.173 [restartedMain] INFO  org.xnio - [<clinit>,95] - XNIO version 3.8.4.Final
+20:32:48.191 [restartedMain] INFO  org.xnio.nio - [<clinit>,58] - XNIO NIO Implementation Version 3.8.4.Final
+20:32:48.280 [restartedMain] INFO  org.jboss.threads - [<clinit>,52] - JBoss Threads version 3.1.0.Final
+20:32:48.347 [restartedMain] INFO  c.a.n.client.naming - [registerService,112] - [REGISTER-SERVICE] saimo-apollo registering service gen-service with instance Instance{instanceId='null', ip='192.168.1.28', port=10012, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.heart.beat.timeout=15, preserved.ip.delete.timeout=30, preserved.register.source=SPRING_CLOUD, preserved.heart.beat.interval=5}}
+20:32:48.354 [restartedMain] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP gen-service 192.168.1.28:10012 register finished
+20:32:48.650 [nacos-grpc-client-executor-9] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [388b5586-1540-45a6-bba4-80041dc2ced1]receive server push request,request=NotifySubscriberRequest,requestId=11
+20:32:48.652 [nacos-grpc-client-executor-9] INFO  c.a.n.client.naming - [isChangedServiceInfo,181] - init new ips(1) service: DEFAULT_GROUP@@gen-service -> [{"ip":"192.168.1.28","port":10012,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gen-service","metadata":{"preserved.heart.beat.timeout":"15","preserved.ip.delete.timeout":"30","preserved.register.source":"SPRING_CLOUD","preserved.heart.beat.interval":"5"},"ipDeleteTimeout":30,"instanceHeartBeatInterval":5,"instanceHeartBeatTimeOut":15}]
+20:32:48.652 [nacos-grpc-client-executor-9] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(1) service: DEFAULT_GROUP@@gen-service -> [{"ip":"192.168.1.28","port":10012,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gen-service","metadata":{"preserved.heart.beat.timeout":"15","preserved.ip.delete.timeout":"30","preserved.register.source":"SPRING_CLOUD","preserved.heart.beat.interval":"5"},"ipDeleteTimeout":30,"instanceHeartBeatInterval":5,"instanceHeartBeatTimeOut":15}]
+20:32:48.905 [nacos-grpc-client-executor-9] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [388b5586-1540-45a6-bba4-80041dc2ced1]ack server push request,request=NotifySubscriberRequest,requestId=11
+20:32:49.109 [com.alibaba.nacos.client.naming.updater.0] INFO  c.a.n.client.naming - [isChangedServiceInfo,235] - new ips(1) service: DEFAULT_GROUP@@gen-service@@DEFAULT -> [{"ip":"192.168.1.28","port":10012,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gen-service","metadata":{"preserved.heart.beat.timeout":"15","preserved.ip.delete.timeout":"30","preserved.register.source":"SPRING_CLOUD","preserved.heart.beat.interval":"5"},"ipDeleteTimeout":30,"instanceHeartBeatInterval":5,"instanceHeartBeatTimeOut":15}]
+20:32:49.110 [com.alibaba.nacos.client.naming.updater.0] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(1) service: DEFAULT_GROUP@@gen-service@@DEFAULT -> [{"ip":"192.168.1.28","port":10012,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gen-service","metadata":{"preserved.heart.beat.timeout":"15","preserved.ip.delete.timeout":"30","preserved.register.source":"SPRING_CLOUD","preserved.heart.beat.interval":"5"},"ipDeleteTimeout":30,"instanceHeartBeatInterval":5,"instanceHeartBeatTimeOut":15}]
+20:32:49.246 [restartedMain] INFO  c.s.g.GenApplication - [logStarted,61] - Started GenApplication in 11.664 seconds (JVM running for 12.6)
+20:32:49.252 [restartedMain] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] gen-service-dev.yml+DEFAULT_GROUP+saimo-apollo
+20:32:49.253 [restartedMain] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=saimo-apollo, dataId=gen-service-dev.yml, group=DEFAULT_GROUP, cnt=1
+20:32:49.254 [restartedMain] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] gen-service.yml+DEFAULT_GROUP+saimo-apollo
+20:32:49.254 [restartedMain] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=saimo-apollo, dataId=gen-service.yml, group=DEFAULT_GROUP, cnt=1
+20:32:49.254 [restartedMain] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] gen-service+DEFAULT_GROUP+saimo-apollo
+20:32:49.254 [restartedMain] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=saimo-apollo, dataId=gen-service, group=DEFAULT_GROUP, cnt=1
+20:33:12.669 [XNIO-1 task-1] INFO  io.undertow.servlet - [log,382] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:33:12.767 [XNIO-1 task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+20:33:13.247 [XNIO-1 task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
